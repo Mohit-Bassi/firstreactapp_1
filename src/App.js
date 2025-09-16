@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <h2 className='text-info'>Welcome CS</h2>
-      <BrowserRouter basename="/ReactProject1">    
+      <BrowserRouter basename="/firstreactapp_1">    
       <Header />
            <Routes>            
                   <Route path='home' element={<Home />}/>
