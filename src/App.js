@@ -15,12 +15,13 @@ function App() {
       <BrowserRouter basename="/firstreactapp_1">    
       <Header />
            <Routes>            
-                  <Route path='home' element={<Home />}/>
-                  <Route path='about' element={<About />}/>
-                  <Route path='support' element={<Support />}/>
-                  <Route path='contact' element={<Contact />}/>
-                  <Route path='employee' element={<Employee />}/>                 
-                  <Route path='' element={<Home />}/>
+              <Route path="/home" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/support" element={<Support />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/employee" element={<Employee />} />
+              <Route path="/" element={<Home />} />
+
            </Routes>
         </BrowserRouter>
 
